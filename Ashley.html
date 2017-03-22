@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Ashley Green || Fashion Stylist</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script|Pacifico|Questrial|Shadows+Into+Light" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playball" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="fashion.css">
+</head>
+<body>
+	<div class="container-fluid row">
+<div class="fancy">
+	<h1>Ashley Green | Stylist</h1>
+	<p>Beauty | Style | Grace</p>
+</div>
+
+<div id="education" class="col-md-3">
+	<h2>Education</h2>
+
+<p>Fashion Institue of Technology graduate.<br> New York University graduate MBA</p>
+
+<img src="http://www.colorbox.us/wp-content/uploads/2015/02/FITbutton_2945large.jpg" alt="Fashion Institute of Technology" class="img-rounded snug">
+
+<img src="https://yt3.ggpht.com/-RZYi5isxH_M/AAAAAAAAAAI/AAAAAAAAAAA/rmWpoe2qZzI/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="NYU" class="img-rounded snug">
+
+</div>
+
+<div id="fashion" class="col-md-6">
+
+<h2>Fashions</h2>
+<p>Showcasing styled outfits</p>
+
+
+	<div id="myCarousel" class="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to = "0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to = "1"></li>
+			<li data-target="#myCarousel" data-slide-to = "2"></li>
+			<li data-target="#myCarousel" data-slide-to = "3"></li>
+		</ol>
+	<div class="carousel-inner">
+		<div class="item active">
+			<img src="sleek.png" alt="Sleek Outfit">
+		</div>
+		<div class="item">
+			<img src="formal.png" alt="Formal Outfit">
+		</div>
+		<div class="item">
+			<img src="sports.png" alt="Sports Outfit">
+		</div>
+		<div class="item">
+			<img src="bathing.png" alt="Bathing Outfit">
+		</div>
+
+    <a href="" class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a href="" class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+
+	</div>
+
+
+	</div>
+
+
+
+</div>
+
+
+<div id="work" class="col-md-3">
+
+<h2>Work Experience</h2>
+
+<p> Interned at Elite Model Management, where I helped style and prep models for go see's and events.</p>
+
+<img src="https://pbs.twimg.com/profile_images/515563257906475008/VVZUAsCo.jpeg" alt="Elite Model Management" class="img-rounded snug">
+
+
+<img src="http://i.forbesimg.com/media/lists/companies/ralph-lauren_416x416.jpg" alt="Ralph Lauren" class="img-rounded snug">
+
+</div>
+
+<div class="navbar navbar-default navbar-fixed-bottom navbar-inverse">
+    <div class="container">
+      <p class="navbar-text pull-left">2017 | Ashley Green | Fashion Stylist</p>
+     
+      <a href="http://www.twitter.com"><i class="fa fa-twitter navbar-text pull-right" aria-hidden="true"></i>
+</a>
+      <a href="https://www.instagram.com"><i class="fa fa-instagram navbar-text pull-right" aria-hidden="true"></i></a>	
+    </div>
+</div>
+
+</div>
+
+
+<script
+  src="https://code.jquery.com/jquery-3.1.1.min.js"
+  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+  crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+    $(function(){
+
+        $('.carousel-control').click(function(e){
+            e.preventDefault();
+            $('#myCarousel').carousel( $(this).data() );
+        });
+
+    });//END document.ready
+</script>
+
+</body>
+</html>
